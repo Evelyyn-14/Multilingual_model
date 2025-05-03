@@ -2,7 +2,9 @@
 User Manual: Running the Multilingual Training Script
 This guide explains how to set up your environment, install the required packages, arrange your data files, and run the datasetModel.py training script that demonstrates masked‐LM, data augmentation, and fairness‐aware training on small FLORES‑101 text splits.
 
-Multilingual.py has the data hardcoded into it so byy simply runiing python Multilingual.py will run the code  You stillneed sentencepieces however  
+Since Multilingual.py already includes the example data, you can just run:
+python Multilingual.py
+beforehand, make sure the sentencepiece package is installed.
 
 1. Requirements: 
 Python: version 3.7 or higher
